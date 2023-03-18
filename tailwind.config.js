@@ -21,6 +21,7 @@ module.exports = {
         pri: "#8e949e",
         whyte: "hsl(0, 0%, 100%)",
         Lgray: "hsl(212, 45%, 89%)",
+        whiteish: '#fef0ed',
 
         WineBack: "#0f1732",
         LeftG: "#0f2735",
@@ -37,6 +38,11 @@ module.exports = {
         Apricot: "#FFD6BA",
         Gold: "#ffd347",
         Intrins: "#8c4485",
+        LiteBlue: '#c0defe',
+        CityBlu: '#4571d9',
+        LB: '#e2eefd',
+        Pinkk: '#fcb6d6',
+
 
         Splatter: "#7a7acd",
         Purp: "#30213e",
@@ -60,6 +66,7 @@ module.exports = {
         inter: ["inter", "serif"],
         mont: ["Montserrat", "sans-serif"],
         pop: ["poppins", "sans-serif"],
+        shadow: ['Shadows Into Light', 'cursive']
       },
     },
   },

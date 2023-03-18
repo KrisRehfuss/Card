@@ -6,9 +6,6 @@ import { RxHamburgerMenu } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsChatLeft } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
-import Swirl from "../../public/Swirl.png";
-
-
 import M from "../../public/Engine.png";
 
 function Nav() {

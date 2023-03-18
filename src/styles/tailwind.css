@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,15 +8,23 @@
 
 
 body {
-  @apply bg-coal Smooth text-white font-pop antialiased scrollbar-hide overflow-x-hidden scroll-smooth;
+  @apply bg-whiteish Smoother text-white font-pop antialiased scrollbar-hide overflow-x-hidden scroll-smooth;
 }
 
 .Stack {
   @apply absolute top-0 left-0
 }
 
-.Disk {
-  @apply hover:animate-spin rounded-full Smoother
+.Buttons {
+  @apply rounded-3xl Line w-full h-fit px-3 bg-whiteish/40 ring-black hover:bg-LiteBlue Smoother
+}
+
+.Line {
+  @apply whitespace-nowrap
+}
+
+.CardGradient {
+  @apply bg-gradient-to-t from-LiteBlue via-Pinkk to-CityBlu
 }
 
 
@@ -37,6 +46,10 @@ body {
 
 .Push {
   @apply hover:scale-95 active:scale-90 transition transform duration-100 ease-linear
+}
+
+.Pull {
+  @apply hover:z-50 hover:scale-110 active:scale-95 transition transform duration-100 ease-linear
 }
 
 .PinkText {
@@ -84,11 +97,11 @@ body {
 }
 
 .Header1 {
-  @apply mt-4 lg:text-8xl md:px-4 ml-72 xl:ml-0 text-5xl w-fit NameShadow cursor-text text-Blu SubversionText font-normal text-center Smoother
+  @apply mt-24 lg:text-8xl md:px-4 ml-72 xl:ml-0 text-5xl w-fit NameShadow cursor-text text-Blu SubversionText font-normal text-center Smoother
 }
 
 .Header2 {
-  @apply lg:mt-4 mt-8 lg:text-6xl md:p-8 mr-24 text-4xl lg:ml-0 ml-56 lg:w-fit w-[500px] NameShadow hover:text-Aero cursor-text SubversionText  font-extralight text-center Smoother
+  @apply lg:mt-4 mt-8 lg:text-6xl md:px-8 mr-24 text-4xl lg:ml-0 ml-56 lg:w-fit w-[500px] NameShadow hover:text-Aero cursor-text SubversionText  font-extralight text-center Smoother
 }
 
 /* Customs - End */
@@ -98,14 +111,14 @@ body {
   @apply Hover transform active:scale-110 Smooth cursor-pointer;
 }
 
-.HoverPush {
-  @apply Hover transform hover:scale-95 Smooth cursor-pointer;
+.Hover {
+  @apply transform hover:scale-95 Smooth cursor-pointer;
 }
 
 /* Structure */
 
 .MARK {
-  @apply Hover rounded-2xl border-2 border-slate-400;
+  @apply rounded-2xl border-2 border-slate-400;
 }
 
 .Hover {
@@ -164,6 +177,10 @@ body {
 
 .Smooth {
   @apply duration-75 ease-linear;
+}
+
+.Tabs {
+  @apply px-2 Smoother rounded-lg hover:bg-white
 }
 
 .Smoother {
