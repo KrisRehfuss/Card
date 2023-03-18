@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from "next/image";
 import Synth from '../../public/City.jpg'
-import OpenAI from '../../public/openai.png'
-import AnimePic from '../../public/AnimePic.jpg'
-import AVI from '../../public/Avi.jpg'
+// import OpenAI from '../../public/openai.png'
+// import AnimePic from '../../public/AnimePic.jpg'
+import AVI from '../../public/AVI.jpg'
 import { BsThreeDotsVertical } from "react-icons/bs";
-import Quote from '../../public/Quote.png'
+// import Quote from '../../public/Quote.png'
 import SkillTree from './SkillTree';
 
 function Card() {
@@ -14,10 +14,10 @@ function Card() {
     <div className="MainCard">
       {/* Banner */}
       <Image
-        className="w-full h-2/6 rounded-t-lg"
+        className="w-full  rounded-t-lg"
         src={Synth}
         alt="#"
-        style={{ objectFit: "cover", width: "100%", height: "30%" }}
+        style={{ objectFit: "cover", width: "100%", height: "50%" }}
       />
 
       {/* Info */}
@@ -42,8 +42,8 @@ function Card() {
         {/* Buttons */}
         <div className=" flex justify-between p-2 lg:ml-16 h-full w-full items-center  text-xs lg:text-base">
           <button className="Buttons py-2">Hire Me</button>
-          <button className="Buttons mr-4 py-2">Send Biscuit</button>
-          <button className="Buttons mr-4 py-3 ">
+          <button className="Buttons mr-4 py-2">Hire Me Again</button>
+          <button className="Buttons  mr-4 py-3 ">
             <BsThreeDotsVertical />
           </button>
         </div>

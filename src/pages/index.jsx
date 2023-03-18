@@ -36,7 +36,7 @@ export default function Home() {
 
 
             {/* Section */}
-            <div className="relative lg:h-auto my-4 h-[800px] lg:w-7/12 w-full FlexCenter mt-4   ">
+            <div className="relative lg:h-auto my-4 h-[900px] lg:w-7/12 w-full FlexCenter mt-4   ">
             {/* Card */}
               <Card />
 
