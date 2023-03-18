@@ -42,6 +42,9 @@ module.exports = {
         CityBlu: '#4571d9',
         LB: '#e2eefd',
         Pinkk: '#fcb6d6',
+        IceBlue: '#b1b3c5',
+        BlueG: '#151f29',
+        Peri: '#9493a7',
 
 
         Splatter: "#7a7acd",

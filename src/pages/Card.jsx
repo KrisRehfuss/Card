@@ -10,7 +10,7 @@ import SkillTree from './SkillTree';
 function Card() {
   return (
     // Card Start
-    <div className="FlexCenterCol text-black Shadow BoxFull p-4 pb-8 rounded-2xl mb-12 mr-24 lg:w-[900px] lg:h-[680px] CardGradient">
+    <div className="MainCard">
       {/* Banner */}
       <Image
         className="w-full h-2/6 rounded-t-lg"
@@ -20,34 +20,38 @@ function Card() {
       />
 
       {/* Info */}
-      <div className="flex items-center pl-12 my-2 mb-2 mr-2 w-full h-fit ">
-        {/* Picture */}
+      <div className="lg:flex-row flex flex-col items-center lg:pl-12 my-2 mb-2 mr-2 w-full h-fit ">
+        {/* AVI Picture */}
         <Image
           src={AnimePic}
-          className="w-32 h-32 -mt-24 hover:shadow-2xl hover:shadow-CityBlu transform hover:scale-110 Smoother shadow-md shadow-coal rounded-full border-white border-4"
+          className="w-32 h-32 -mt-24 hover:shadow-2xl hover:shadow-CityBlu  active:border-Peri transform hover:scale-110 active:scale-95 active:shadow-md Smooth shadow-lg shadow-coal rounded-full border-IceBlue border-4"
           alt="OpenAI"
         />
 
         {/* Name Box */}
-        <div className="flex w-full Line flex-col leading-5 text-2xl font-light mt-2 p-2 mx-2">
-          <h1 className="">Daniel Orick</h1>
-          <p className="text-base font-extralight"> Quantum Entangler</p>
+        <div className=" lg:text-left text-center flex w-full Line flex-col leading-5 text-xl lg:text-2xl font-normal mt-2 p-2 mx-2">
+          <h1 className="">
+            Daniel <span className="">Biscuit</span>{" "}
+          </h1>
+          <p className="lg:text-base   lg:font-extralight text-xs font-light">
+            Quantum Entangler
+          </p>
         </div>
 
         {/* Buttons */}
-        <div className="flex mr- ml-16 h-full w-fit items-center gap-x-3 px-4 text-base">
-          <button className="Buttons py-2">Donate for meh</button>
+        <div className=" flex justify-between p-2 lg:ml-16 h-full w-full items-center  text-xs lg:text-base">
           <button className="Buttons py-2">Hire Me</button>
-          <button className="Buttons py-3 ">
+          <button className="Buttons mr-4 py-2">Send Biscuits</button>
+          <button className="Buttons mr-4 py-3 ">
             <BsThreeDotsVertical />
           </button>
         </div>
       </div>
 
       {/* Card  */}
-      <div className="BoxFull mb-4 flex p-4 rounded-lg  bg-LB/60">
+      <div className=" lg:h-full lg:w-full h-4/6 p-4 mb-4 flex rounded-lg  bg-LB/60">
         {/* Tabs */}
-        <div className="place-self-center Smoother gap-x-2 font-normal text-gray-600  -rotate-90 -ml-32 flex w-fit h-fit">
+        <div className="flex w-fit h-fit justify-evenly place-self-center Smoother gap-x-2 font-normal text-gray-600  -rotate-90 -ml-32">
           <div className="Tabs "> Contact</div>
           <div className="Tabs">Blog</div>
           <div className="Tabs">Project</div>
@@ -55,36 +59,24 @@ function Card() {
         </div>
 
         {/* Text Section */}
-        <div className="border-l-2 border-gray-400 p-4 -ml-28 BoxFull">
-          {/* Quote */}
-          <div className="">
-            <Image
-              className="w-full h-fit -mt-6 rounded-2xl"
-              src={Quote}
-              alt="#"
-              style={{ objectFit: "cover", width: "100%", height: "30%" }}
-            />
+        <div className="border-l-2 flex flex-col items-center justify-start lg:justify-between border-gray-400 px-3 lg:px-4 -ml-28 BoxFull">
+          {/* About Me */}
+          <div className="my-4">
+            <h2 className="text-base font-semibold mb-2">About Me </h2>
+            <p className="text-xs lg:text-sm leading-5 lg:leading-6 font-normal">
+              Hey everyone, it&apos;s great to meet you all! My name is Daniel
+              Biscuit, and I&apos;m a quantum entangler hailing from the heart
+              of the Midwest. I&apos;ve always been fascinated by the mysteries
+              of the universe, and I&apos;ve dedicated my life to unraveling
+              some of its deepest secrets through the study of quantum physics.
+            </p>
           </div>
 
-          {/* Text */}
-          <div className="my-4">
-            <h2 className="text-xs font-semibold mb-2">About Me </h2>
-            <p className="px-1 text-xs font-mont tracking-wide font-thin">
-              Hey everyone, it&apos;s great to meet you all! My name is Daniel Orick,
-              and I&apos;m a quantum entangler hailing from the heart of the Midwest.
-              I&apos;ve always been fascinated by the mysteries of the universe, and
-              I&apos;ve dedicated my life to unraveling some of its deepest secrets
-              through the study of quantum physics. You might think that being a
-              quantum entangler is anything but normal, but for me, it&apos;s just
-              another day in the lab. I&apos;m constantly pushing the boundaries of
-              what&apos;s possible with entangled particles, developing new
-              techniques for creating and manipulating them, and exploring the
-              many strange and wonderful phenomena that arise from quantum
-              entanglement.
-            </p>
-            <h2 className="text-xs font-semibold mt-4 mb-2">My Skills </h2>
+          {/* My Skills */}
+          <div className="BoxFit place-self-end px-1 ">
+            <h2 className="text-sm font-semibold mt-4 mb-3">My Skills </h2>
+
             <SkillTree />
-                     
           </div>
         </div>
       </div>

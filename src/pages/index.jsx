@@ -27,24 +27,20 @@ export default function Home() {
 
       <main>
         <Nav />
-        <Banner />
+        {/* <Banner /> */}
 
         {/* Wrapper Start */}
-        <div className="overflow-hidden FlexCenterCol mt-4 font-pop BoxFull">
-          <div className="lg:mr-24 md:max-w-5xl FlexCenterCol px-12 pb-24 lg:p-2  w-full h-fit min-h-fit lg:w-6/12">
+        <div className=" overflow-hidden FlexCenterCol mt-4 font-pop BoxFull">
             {/* Header */}
             <Header styleh1="Header1" styleh2="Header2" />
 
-            {/* Caption */}
-            <p className=" p-4 lg:text-xl lg:px-12 leading-7 text-base text-gray-400 font-semibold text-center"></p>
 
             {/* Section */}
-            <div className="BoxFull mx-auto mb-6">
+            <div className="relative lg:h-auto h-[900px] lg:w-7/12 w-full FlexCenter mt-4 MARK  ">
             {/* Card */}
               <Card />
 
             </div>
-          </div>
           {/* <Footer /> */}
           {/* <SearchBar /> */}
         </div>

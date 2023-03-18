@@ -18,10 +18,10 @@ import Clone from "../../public/Clone.png";
 
 function SkillTree() {
   return (
-    <div className="py-1 px-2 BoxFit flex flex-wrap space-x-2">
+    <div className="lg:h-fit lg:w-fit h-[240px]   flex flex-wrap space-x-2">
       <Skills name="React" logo={Reacts} />
       <Skills name="Tailwind" logo={Tailwind} />
-      <Skills name="JS" logo={JS} />
+      <Skills name="JavaScript" logo={JS} />
       <Skills name="OpenAI" logo={OpenAI} />
       <Skills name="Git" logo={Git} />
       <Skills name="Express" logo={Express} />
@@ -31,8 +31,8 @@ function SkillTree() {
       <Skills name="Node" logo={Node} />
       <Skills name="Github" logo={Github} />
       <Skills name="JQuery" logo={JQuery} />
-      <Skills name="Drinking Coffee" logo={Coffee} />
       <Skills name="Cloning" logo={Clone} />
+      <Skills name="Drinking Coffee" logo={Coffee} />
     </div>
   );
 }
