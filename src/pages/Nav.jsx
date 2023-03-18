@@ -32,7 +32,7 @@ function Nav() {
       {/* Icons */}
       <div className="FlexCenter h-full  text-2xl mr-4 text-Splatter  space-x-4 ">
         <div className=" NavItem p-2">
-          <a href="https://www.prismaticband.com" alt="home">
+          <a href="https://www.krisrehfuss.com" alt="home">
             <AiOutlineHome />{" "}
           </a>
         </div>
