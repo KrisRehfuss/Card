@@ -30,13 +30,13 @@ export default function Home() {
         {/* <Banner /> */}
 
         {/* Wrapper Start */}
-        <div className=" overflow-hidden FlexCenterCol mt-4 font-pop BoxFull">
+        <div className="MARK overflow-hidden FlexCenterCol mt-4 mb-24 font-pop BoxFull">
             {/* Header */}
             {/* <Header styleh1="Header1" styleh2="Header2" /> */}
 
 
             {/* Section */}
-            <div className="relative lg:h-auto my-4 h-[1000px] min-h-fit lg:w-7/12 w-full FlexCenter mt-4   ">
+            <div className="relative mb-24 lg:h-auto my-4 h-[1000px] min-h-fit lg:w-7/12 w-full FlexCenter mt-4   ">
             {/* Card */}
               <Card />
 
