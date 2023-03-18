@@ -30,7 +30,7 @@ export default function Home() {
         {/* <Banner /> */}
 
         {/* Wrapper Start */}
-        <div className="MARK overflow-hidden FlexCenterCol mt-4 mb-24 font-pop BoxFull">
+        <div className=" overflow-hidden FlexCenterCol mt-4 mb-24 font-pop BoxFull">
             {/* Header */}
             {/* <Header styleh1="Header1" styleh2="Header2" /> */}
 
