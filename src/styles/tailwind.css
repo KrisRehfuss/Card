@@ -16,7 +16,7 @@ body {
 }
 
 .MainCard {
-  @apply FlexCenterCol text-black Shadow BoxFull p-4 pb-4 rounded-2xl lg:h-[680px] h-[200px] CardGradient
+  @apply FlexCenterCol text-black Shadow BoxFull  p-4 pb-4 rounded-2xl lg:h-[680px] h-[200px] CardGradient
 }
 
 .Buttons {

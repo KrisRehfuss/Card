@@ -32,11 +32,11 @@ export default function Home() {
         {/* Wrapper Start */}
         <div className=" overflow-hidden FlexCenterCol mt-4 font-pop BoxFull">
             {/* Header */}
-            <Header styleh1="Header1" styleh2="Header2" />
+            {/* <Header styleh1="Header1" styleh2="Header2" /> */}
 
 
             {/* Section */}
-            <div className="relative lg:h-auto h-[900px] lg:w-7/12 w-full FlexCenter mt-4 MARK  ">
+            <div className="relative lg:h-auto my-4 h-[800px] lg:w-7/12 w-full FlexCenter mt-4   ">
             {/* Card */}
               <Card />
 

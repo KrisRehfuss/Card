@@ -3,6 +3,7 @@ import Image from "next/image";
 import Synth from '../../public/City.jpg'
 import OpenAI from '../../public/openai.png'
 import AnimePic from '../../public/AnimePic.jpg'
+import AVI from '../../public/Avi.jpg'
 import { BsThreeDotsVertical } from "react-icons/bs";
 import Quote from '../../public/Quote.png'
 import SkillTree from './SkillTree';
@@ -23,8 +24,8 @@ function Card() {
       <div className="lg:flex-row flex flex-col items-center lg:pl-12 my-2 mb-2 mr-2 w-full h-fit ">
         {/* AVI Picture */}
         <Image
-          src={AnimePic}
-          className="w-32 h-32 -mt-24 hover:shadow-2xl hover:shadow-CityBlu  active:border-Peri transform hover:scale-110 active:scale-95 active:shadow-md Smooth shadow-lg shadow-coal rounded-full border-IceBlue border-4"
+          src={AVI}
+          className="w-32 h-32 -mt-24 hover:shadow-2xl hover:shadow-CityBlu  active:border-Teel transform hover:scale-110 active:scale-95 active:shadow-md Smooth shadow-lg shadow-coal rounded-full border-IceBlue border-4"
           alt="OpenAI"
         />
 
@@ -41,7 +42,7 @@ function Card() {
         {/* Buttons */}
         <div className=" flex justify-between p-2 lg:ml-16 h-full w-full items-center  text-xs lg:text-base">
           <button className="Buttons py-2">Hire Me</button>
-          <button className="Buttons mr-4 py-2">Send Biscuits</button>
+          <button className="Buttons mr-4 py-2">Send Biscuit</button>
           <button className="Buttons mr-4 py-3 ">
             <BsThreeDotsVertical />
           </button>
@@ -59,7 +60,7 @@ function Card() {
         </div>
 
         {/* Text Section */}
-        <div className="border-l-2 flex flex-col items-center justify-start lg:justify-between border-gray-400 px-3 lg:px-4 -ml-28 BoxFull">
+        <div className="border-l-2 flex flex-col items-center justify-start lg:justify-evenly border-gray-400 px-3 lg:px-4 -ml-28 BoxFull">
           {/* About Me */}
           <div className="my-4">
             <h2 className="text-base font-semibold mb-2">About Me </h2>

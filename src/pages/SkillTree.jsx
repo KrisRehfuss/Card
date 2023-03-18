@@ -18,7 +18,7 @@ import Clone from "../../public/Clone.png";
 
 function SkillTree() {
   return (
-    <div className="lg:h-fit lg:w-fit h-[240px]   flex flex-wrap space-x-2">
+    <div className="lg:h-fit lg:w-fit h-[240px] flex flex-wrap space-x-2">
       <Skills name="React" logo={Reacts} />
       <Skills name="Tailwind" logo={Tailwind} />
       <Skills name="JavaScript" logo={JS} />
@@ -30,7 +30,7 @@ function SkillTree() {
 
       <Skills name="Node" logo={Node} />
       <Skills name="Github" logo={Github} />
-      <Skills name="JQuery" logo={JQuery} />
+      {/* <Skills name="JQuery" logo={JQuery} /> */}
       <Skills name="Cloning" logo={Clone} />
       <Skills name="Drinking Coffee" logo={Coffee} />
     </div>

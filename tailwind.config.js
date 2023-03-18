@@ -45,6 +45,7 @@ module.exports = {
         IceBlue: '#b1b3c5',
         BlueG: '#151f29',
         Peri: '#9493a7',
+        Teel: '#6b9a94',
 
 
         Splatter: "#7a7acd",
