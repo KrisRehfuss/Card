@@ -8,7 +8,7 @@ import Banner from "./Banner";
 import Header from "./Header";
 import Top from "./Top";
 import SearchBar from "./SearchBar";
-import Skills from "./Skills";
+import Skills from "./Skill";
 import Footer from "./Footer";
 import sun from "../../public/sun.png";
 import Card from "./Card";
@@ -27,22 +27,17 @@ export default function Home() {
 
       <main>
         <Nav />
-        {/* <Banner /> */}
 
         {/* Wrapper Start */}
         <div className=" overflow-hidden FlexCenterCol mt-4 mb-24 font-pop BoxFull">
             {/* Header */}
-            {/* <Header styleh1="Header1" styleh2="Header2" /> */}
 
-
-            {/* Section */}
-            <div className="relative mb-24 lg:h-auto my-4 h-[1000px] min-h-fit lg:w-7/12 w-full FlexCenter mt-4   ">
+            <div className="relative mb-24 lg:h-auto my-4 h-[980px] min-h-fit lg:w-7/12 w-full FlexCenter mt-4   ">
             {/* Card */}
               <Card />
 
             </div>
           {/* <Footer /> */}
-          {/* <SearchBar /> */}
         </div>
       </main>
     </>

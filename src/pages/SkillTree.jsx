@@ -1,4 +1,4 @@
-import Skills from "./Skills";
+import Skill from "./Skill";
 import React from 'react'
 import TS from "../../public/TS.png";
 import Tailwind from "../../public/tail.png";
@@ -18,21 +18,21 @@ import Clone from "../../public/Clone.png";
 
 function SkillTree() {
   return (
-    <div className="lg:h-fit lg:w-fit h-[240px] grow flex flex-wrap space-x-2">
-      <Skills name="React" logo={Reacts} />
-      <Skills name="Tailwind" logo={Tailwind} />
-      <Skills name="JavaScript" logo={JS} />
-      <Skills name="OpenAI" logo={OpenAI} />
-      <Skills name="Git" logo={Git} />
-      <Skills name="Express" logo={Express} />
-      <Skills name="Angular" logo={Angular} />
-      <Skills name="JQuery" logo={JQuery} />
+    <div className="md:h-fit md:w-fit  flex flex-wrap space-x-2">
+      <Skill name="React" logo={Reacts} />
+      <Skill name="Tailwind" logo={Tailwind} />
+      <Skill name="JavaScript" logo={JS} />
+      <Skill name="OpenAI" logo={OpenAI} />
+      <Skill name="Git" logo={Git} />
+      <Skill name="Express" logo={Express} />
+      <Skill name="Angular" logo={Angular} />
+      <Skill name="JQuery" logo={JQuery} />
 
-      <Skills name="Node" logo={Node} />
-      <Skills name="Github" logo={Github} />
-      {/* <Skills name="JQuery" logo={JQuery} /> */}
-      <Skills name="Cloning" logo={Clone} />
-      <Skills className='flex-2' name="Drinking Coffee" logo={Coffee} />
+      <Skill name="Node" logo={Node} />
+      <Skill name="Github" logo={Github} />
+      {/* <Skill name="JQuery" logo={JQuery} /> */}
+      <Skill name="Cloning" logo={Clone} />
+      <Skill name="Drinking Coffee" logo={Coffee} />
     </div>
   );
 }

@@ -17,7 +17,7 @@ function Card() {
         className="w-full  rounded-t-lg"
         src={Synth}
         alt="#"
-        style={{ objectFit: "cover", width: "100%", height: "50%" }}
+        style={{ objectFit: "cover", width: "100%", height: "30%" }}
       />
 
       {/* Info */}
@@ -74,7 +74,7 @@ function Card() {
           </div>
 
           {/* My Skills */}
-          <div className="BoxFit place-self-end px-1 ">
+          <div className="BoxFit mt-12 place-self-end px-1 ">
             <h2 className="text-sm font-semibold mt-4 mb-3">My Skills </h2>
 
             <SkillTree />
